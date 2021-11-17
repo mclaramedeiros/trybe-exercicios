@@ -12,3 +12,5 @@ O que eu vou aprender na Trybe:
 - a
 - b 
 >>>>>>> master
+- JavaScript
+- Git 
