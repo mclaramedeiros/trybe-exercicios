@@ -3,5 +3,12 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
+<<<<<<< HEAD
 - soft skills
 - hard skills
+=======
+- javascript
+- git
+- a
+- b 
+>>>>>>> master
