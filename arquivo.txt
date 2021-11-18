@@ -3,9 +3,6 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
-- javascript
-- git
-- a
-- b 
+- JavaScript
 - React
 - Git Hub
