@@ -1,0 +1,21 @@
+h1{
+    font-size: 90px;
+    color: rgb(124, 145, 51);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.modify {
+    background-color:rgb(136, 165, 55);
+}
+
+p{
+    font-weight: 60;
+    font-size: 2em;
+    text-decoration: overline;
+    text-align: center;
+}
+body{
+    font-size: 16px;
+
+}
