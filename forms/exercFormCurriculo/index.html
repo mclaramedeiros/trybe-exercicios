@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
         <fieldset>
+            <legend>Dados Pessoais</legend>
             <div class="nameArea">
                 <label for="input-name">Nome:</label>
                 <input type="text" name="nome" id="input-name" required maxlength="40">
@@ -54,6 +56,22 @@
             <label for="optionBtn"> Casa
             </label>
             </div>
+
+           </fieldset>
+           <fieldset>
+               <legend>Dados do seu último emprego</legend>
+               <div>
+                   <label for="textArea">Descreva seu último emprego:</label>
+                   <textarea name="resume"  id="textArea" cols="30" rows="10" maxlength="1000" required></textarea>
+               </div>
+               <div>
+                    <label for="cargoAtual">Cargo atual:</label>
+                    <input type="text" name="cargoAtual" id="cargoAtual">
+               </div>
+               <div class="line-content">
+                    <label for="startDate">Data de início: </label>
+                    <input type="text" class="input-data" name="startDate" required>
+              </div>
 
            </fieldset>
     </form>

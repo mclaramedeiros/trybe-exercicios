@@ -11,3 +11,12 @@ function createStates(){
 }
 
 createStates();
+
+// function dateStart(){
+//     let date = document.getElementsByClassName('input-data');
+//     let valorData = date.value;
+//     if( valor > 0 && valor <= 31 ){
+
+//     }
+// }
+
