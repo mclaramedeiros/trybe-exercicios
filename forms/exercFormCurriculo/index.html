@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="nameArea">
+                <label for="input-name">Nome:</label>
+                <input type="text" name="nome" id="input-name" required maxlength="40">
+                
+            </div>
+
+            <div>
+                <label for="input-email">Email:</label>
+                <input type="email" name="email" id="input-email" required maxlength="50">
+            </div>
+
+            <div>
+                <label for="input-cpf">CPF:</label>
+                <input type="text" name="CPF" id="input-cpf" required maxlength="11">
+            </div>
+
+            <div>
+                <label for="input-address">Endereço:</label>
+                <input type="text" name="endereco" id="input-address" required maxlength="200">
+            </div>
+
+            <div>
+                <label for="input-email">Email:</label>
+                <input type="email" name="email" id="input-email" required maxlength="50">
+            </div>
+
+            <div>
+                <label for="input-cidade">Cidade:</label>
+                <input type="text" name="cidade" id="input-cidade" required maxlength="28">
+            </div>
+
+            <div>
+                <label for="state">Estado: </label>
+                <select name="Estado" id="state" required>
+                    <option disabled selected value="">Selecione seu estado</option>
+                </select>
+            </div>
+            <div>
+            <input type="radio" name="option" id="optionButton"> 
+            <label for="optionButton"> Apartamento
+            </label>
+            <input type="radio" name="option" id="optionBtn"> 
+            <label for="optionBtn"> Casa
+            </label>
+            </div>
+
+           </fieldset>
+           <fieldset>
+               <legend>Dados do seu último emprego</legend>
+               <div>
+                   <label for="textArea">Descreva seu último emprego:</label>
+                   <textarea name="resume"  id="textArea" cols="30" rows="10" maxlength="1000" required></textarea>
+               </div>
+               <div>
+                    <label for="cargoAtual">Cargo atual:</label>
+                    <input type="text" name="cargoAtual" id="cargoAtual">
+               </div>
+               <div class="line-content">
+                    <label for="startDate">Data de início: </label>
+                    <input type="text" class="input-data" name="startDate" required>
+              </div>
+
+           </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
